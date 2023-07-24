@@ -23,6 +23,15 @@ Con esta configuración en el cron, el script se ejecutará automáticamente cad
 Recuerda que, en sistemas Linux, debes asegurarte de que el archivo del script tenga permisos de ejecución adecuados para que el cron pueda ejecutarlo. Puedes dar permisos de ejecución con el siguiente comando:
 
 
+~~~
+chmod +x /ruta/del/script.sh
+~~~
+
+Una vez que hayas configurado el cron, el script se ejecutará automáticamente en el intervalo especificado, y los historiales de las terminales se agregarán al archivo cada 20 minutos.
+
+
+
+
 
 
 
